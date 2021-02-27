@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration system PHP and MySQL</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h2>Login into Account</h2>
+	</div>
+	<form method="POST" action="connect.php" id="form" class="form">
+		<div class="form-control">
+			<label for="username">Username</label>
+			<input type="text" placeholder="username" id="username" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password</label>
+			<input type="password" placeholder="Password" id="password"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		
+		<button>Submit</button>
+
+        <p>
+            Not yet a member? <a href="register1.html">Sign up</a>
+        </p>
+	</form>
+</div>
+<script src="log.js"></script>
+</body>
+</html>
